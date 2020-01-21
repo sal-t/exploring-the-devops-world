@@ -5,7 +5,33 @@ To do so I see no better way then starting a proper project and making a full en
 
 As I am at it, I thought I would document the process in this blog, so that people can have a look at what I am doing and either help me out if I they think I'm doing it wrong, make use of some of the info I find, in case they want to do something similar.
 
+Ok, so first things first: where do I put my source code?
+I didn't really have to look far for this, as github seems pretty much standard for anything these days - andit's free!
+According to the marketing page ( https://github.com/pricing#feature-comparison ), the free tier allows for private repos, but with limited features.
+Well, for this blog there is really not much I need to keep private, so I'll settle for a public repo (anyone that wants to open a PR to fix some stuff I am doing - go for it)
+But maybe it's worth trying out some other stuff too. One thing that pickled my interest when researching the subject is the git repo in Amazon.
+As all my infrastructure will be in aws (spoiler alert), and the amazon git repo that is also free and offer full features for a private repo, I'll use that to store the code of my website.
 
+What I want to do with this is to set up some pipelines so that any time I commit something to master (in either repos) a build is performed, and it's deployed... somewhere. I suppose I should have a staging environment where I can test stuff.
+
+Ok, so I need, at a minimum:
+- a stage environment for testing
+- a prod environment, able to run both my blog and the project's website
+- somewhere where to run my pipeline
+
+Looks like I need 3 machines then.
+For infrastructure, I have decided to go with AWS. That is the biggest player in the market right now, and seems to be the cheaper for what I need.
+reading up on things, I think I will run spot instances that I will spin up only when I want to test stuff. I don't really need my websites to be always available, at least for now. We'll see when they are ready.
+
+Ok. Now, the website itself. I have seen a lot of noise about react/redux and typescript lately.
+I'll probably go with something like that, although I'll need to do a lot of reading on that before being able to start writing some stuff.
+Or/and Node.js? We'll see.
+
+Ok, let's start then.
+
+---------------
 
 This is, for now, just a dumping ground of resources, until this blog gets more structured.
 https://developer.github.com/
+
+https://blog.logrocket.com/why-use-redux-reasons-with-clear-examples-d21bffd5835/
