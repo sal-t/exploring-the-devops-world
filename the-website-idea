@@ -1,0 +1,13 @@
+This is my idea for the website we'll build from scratch:
+
+Real Life Food
+The website will be a collection of pictures of how recipes found in internet looks like IRL!
+No more fancy pics by food photographer, no more feeling ashamed about how that what was supposed to look like a fluffy cloud of a panna cotta looks more like a big lump of mash potatoes.
+
+I am still unsure how it's gonna work, we'll work out the details as we go along, but the concept should stay.
+I am thinking - no recipes, we don't want yet another recipes website.
+Actually there should be a link to the recipe that was attempted, but not the recipe's itself - I suppose this way we should be safe from being sued for copyright infringment. Hopefully.
+And then the pic of how it came in real life.
+Can user upload their recipes and pics?
+If I do that I'll have to consider a lot of aspects like avoiding people filling up my DB, even maybe with nsfw pictures, eventually user accounts with GDPR and all...
+Let's say for now no users generated content, only some stuff I cook. But this might change in future.
