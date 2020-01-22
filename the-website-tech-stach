@@ -1,0 +1,18 @@
+Ok, we have the idea for the new website. Now, what do I use to create it?
+Man, there is sooo much choice. The competition in this area is fierce to say the least.
+I have done a lot of reading, but it still feels like I could read about this for months.
+These are the links of some of the most useful stuff:
+
+https://blog.logrocket.com/why-use-redux-reasons-with-clear-examples-d21bffd5835/
+https://da-14.com/blog/how-to-choose-technology-stack-application-development
+https://da-14.com/blog/2018-comparison-angular-vs-react-js-framework-make-your-project-succeed
+https://github.com/dwyl/learn-elm/issues/129
+
+It all boils down to React vs Angular in most parts, and then what to use with it.
+Anything else at this point would feel kind of anacronystic (Java, Ruby, pure Javascript, LAMP, etc.), or futuristic (Elm).
+I really would like to try Elm for real, but I have looked a bit on linkedin Job offers, and the overwelming majority asks for some experience with React and Typescript.
+And let's not forget my main goal here, to discover more about what everybody else is talking about.
+So I suppose we'll have to settle for React on this.
+But maybe somewhere down the line I'll give Elm a go... Maybe with Rust backend.. or Go... watch this space.
+
+
